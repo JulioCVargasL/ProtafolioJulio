@@ -1,0 +1,90 @@
+
+:root{
+  --color-azul-1: rgb(31, 143, 207);
+  --color-fondo: rgba(39, 39, 21, 0.356);
+  --color-text-1: white;
+  --color-hover: yellow;
+  --color-action: orange;
+}
+
+*{
+  color: var(--color-text-1);
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Madimi One';
+}
+body{
+
+margin-top: 80px;
+background-image: url(images/background.jpg);
+background-size: cover;
+
+/*Inicio Barra de inicio*/
+
+}
+.barra {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-azul-1);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.inicio {
+  display: flex;
+  
+}
+.logo {
+  height: 80px;
+  margin-left: 20px;
+}
+.logo:active {
+  height: 80px;
+  background-color: var(--color-fondo);
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding: 0px 20px;
+  margin-right: 20px;
+  
+}
+.menu__item {
+  color: var(--color-text-1);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 80px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+.menu__item:hover {
+  color: var(--color-hover);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 80px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--color-fondo);
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.menu__item:active {
+  color: var(--color-action);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 80px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--color-hover);
+  text-transform: uppercase;
+}
+/*fin Barra de inicio*/
+/* Inicio Body Portada*/
+.portada{
+  
+}
