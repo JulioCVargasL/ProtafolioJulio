@@ -1,8 +1,9 @@
 
 :root{
   --color-azul-1: rgb(31, 143, 207);
-  --color-fondo: rgba(39, 39, 21, 0.719);
+  --color-fondo: #272715b7;
   --color-text-1: white;
+  --color-text-2: black;  
   --color-hover: yellow;
   --color-action: orange;
 }
@@ -15,7 +16,7 @@
 }
 body{
 
-margin-top: 80px;
+margin-top: 90px;
 background-image: url(images/background.jpg);
 background-size: cover;
 
@@ -111,4 +112,30 @@ background-size: cover;
 .datos{
   list-style: none;
   text-align: left;
+}
+.contacto{
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 1.8em;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+.contacto > h1{
+  text-align: center;
+}
+
+.contacto > input, textarea{
+  color: var(--color-text-2);
+  outline: none;
+  border: 0;
+}
+.contacto__input{
+  margin: 5px;
+  width: 80%;
+}
+.contacto > button{
+  background-color: var(--color-azul-1);
 }
