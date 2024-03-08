@@ -4,5 +4,7 @@ def inicio (request):
   return render(request, 'index.html', {})
 
 def portafolio (request):
-  return render(request, 'protafolio.html', {})
+  return render(request, 'portafolio.html', {})
 
+def contacto (request):
+  return render(request, 'contacto.html', {})

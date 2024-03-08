@@ -1,0 +1,24 @@
+{% extends "layouts/app.html" %}
+
+{% block title %}
+<title>Portafolio</title>
+{% endblock %}
+
+{% block content %}
+<h1>Este es mi Portafolio</h1>
+<section>
+  <img src="/static/images/portafolio1.jpg" alt="portafolio1">
+  <img src="/static/images/portafolio2.jpg" alt="portafolio2">
+  <img src="/static/images/portafolio3.jpg" alt="portafolio3">
+  <img src="/static/images/portafolio4.jpg" alt="portafolio4">
+  <img src="/static/images/portafolio5.jpg" alt="portafolio5">
+  <img src="/static/images/portafolio6.jpg" alt="portafolio6">
+  <img src="/static/images/portafolio7.jpg" alt="portafolio7">
+  <img src="/static/images/portafolio8.jpg" alt="portafolio8">
+  <img src="/static/images/portafolio9.jpg" alt="portafolio9">
+  <img src="/static/images/portafolio10.jpg" alt="portafolio10">
+</section>
+<div>
+  <button><a href={% url "contacto" %}>!Contactame¡</a></button>
+</div>
+{% endblock %}

@@ -88,12 +88,27 @@ background-size: cover;
 .portada{
   display: flex;
   background-color: var(--color-fondo);
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 10% 10%;
   padding: 0 12px;
 }
+.mydata{
+  min-width: 100px;
+}
 .img__portada {
-  max-height: 500px;
-  height: 30%;
+  max-width:  70%;
+  padding: 5% 5%;
+  border-radius: 15%;
+  margin: 10px 10px;
+}
+.titulo{
+  text-align: center;
+}
+.myname{
+  text-align: center;
+}
+.datos{
+  list-style: none;
+  text-align: left;
 }
